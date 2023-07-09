@@ -38,7 +38,7 @@ def pyramid_sum(lower, upper, margin = 0):
     print(blanks, lower, upper) # Print the arguments
 
     if lower > upper:
-        print(blanks, 0) # Print the returned value
+        print(blanks, 0) # Print the returned value red
         return 0
     else:
         result = lower + pyramid_sum(lower + 1, upper, margin + 4)

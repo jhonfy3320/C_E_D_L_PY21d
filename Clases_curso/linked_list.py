@@ -1,5 +1,4 @@
-from Node import Node
-
+from Node import Node # se generan para octener mejores clases 
 class SinglyLinkedList:
     def __init__(self):
         self.tail = None

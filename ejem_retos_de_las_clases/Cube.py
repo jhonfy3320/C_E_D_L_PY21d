@@ -27,6 +27,7 @@ class Cube:
     def __getitem__(self, index):
         return self.data[index]
 
+
 '''my_cube = Cube(2, 2, 2)
 my_cube.populate(1)
 

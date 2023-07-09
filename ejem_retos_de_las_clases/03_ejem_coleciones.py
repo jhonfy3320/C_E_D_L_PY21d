@@ -15,7 +15,7 @@ Los elementos en un conjunto no tienen un orden específico y no se pueden dupli
 Los conjuntos son útiles para eliminar duplicados y realizar operaciones de conjuntos como unión, 
 intersección, etc. Por ejemplo:'''
 
-mi_conjunto = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0}
+mi_conjunto = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0} #conjunto 
 
 '''Diccionarios (Dictionaries): Los diccionarios son colecciones no ordenadas de pares clave-valor. 
 Los elementos se almacenan y acceden mediante una clave en lugar de un índice. 

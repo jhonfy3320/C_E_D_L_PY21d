@@ -10,7 +10,7 @@ import random
 # Generate a random number between 1 and 100
 number = random.randint(1, 100)
 
-# Initialize the guess count
+# Initialize the guess count 
 guesses_taken = 0
 
 print("Welcome to the Guess the Number game!")

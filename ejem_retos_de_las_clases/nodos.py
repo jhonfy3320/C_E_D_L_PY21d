@@ -11,6 +11,7 @@ a diferencia de las listas o arrays que requieren reorganizar elementos.
 A continuación, te muestro un ejemplo detallado de cómo implementar una lista enlazada simple 
 (singly linked list) en Python:'''
 
+#nodes
 class Node:
     def __init__(self, data):
         self.data = data

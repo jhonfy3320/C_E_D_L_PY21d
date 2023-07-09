@@ -33,7 +33,7 @@ class MiArray:
 # Crear una instancia de la clase MiArray
 mi_array = MiArray(5)
 
-# Poblar los slots del array con números aleatorios
+# Poblar los slots del array con números aleatorios del array 
 mi_array.poblar_aleatorio(100)
 
 # Imprimir el array

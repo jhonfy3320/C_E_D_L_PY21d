@@ -22,7 +22,7 @@ mi_diccionario['clave'] = 'nuevo_valor'  # Modificación del valor asociado a la
 '''Agregar elementos: Puedes agregar nuevos elementos a una colección usando métodos específicos 
 según el tipo de colección. Por ejemplo:
  '''
-
+#listas 
 mi_lista = [1, 2, 3]
 mi_lista.append(4)  # Agregar el elemento 4 al final de la lista: [1, 2, 3, 4]
 
