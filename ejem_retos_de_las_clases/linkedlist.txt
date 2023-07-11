@@ -1,0 +1,36 @@
+> **Esta implementación de la lista enlazada (LinkedList) incluye los siguientes métodos:**
+
+### __len__(): 
+- Devuelve la longitud de la lista.
+### __getitem__(index): 
+- Permite acceder a los elementos de la lista mediante índices.
+###  __setitem__(index, value): 
+- Permite modificar los elementos de la lista mediante índices.
+###  __iter__(): 
+- Permite iterar sobre los elementos de la lista.
+###  __contains__(value): 
+Verifica si un valor está presente en la lista.
+### append(data): 
+- Agrega un elemento al final de la lista.
+### insert(index, data): 
+- Inserte un elemento en una posición específica de la lista.
+### remove(data): 
+- Elimina la primera aparición de un elemento de la lista.
+### index(data): 
+- Devuelve el índice de la primera aparición de un elemento en la lista.
+### count(data): 
+- Cuenta la cantidad de apariciones de un elemento en la lista.
+### clear(): 
+- Elimina todos los elementos de la lista.
+- reverse(): 
+Invierte el orden de los elementos en la lista.
+### copy(): 
+- Crea una copia de la lista.
+### extend(iterable): 
+- Agrega los elementos de un iterable al final de la lista.
+### pop(index=None):
+- Elimina y devuelve el elemento en la posición especificada o el último elemento si no se proporciona un índice.
+__str__(): 
+### Devuelve una representación en cadena de la lista.
+- Estos métodos te permitirán utilizar la lista enlazada de manera similar a una lista estándar de Python.
+
