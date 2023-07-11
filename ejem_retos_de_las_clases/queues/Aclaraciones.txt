@@ -1,0 +1,7 @@
+¡Hola compañero!
+.
+En las colas el primero en entrar es el primero en salir, ahora, trata de imaginar una cola donde quien esté al final de la lista será el primero en salir. El profesor lo hace así para aprovechar los métodos que ya traen las listas en Python, como pop().
+.
+Así cuando ingresa un nuevo elemento en la posición 0, se asegura de que el elemento que ingresó no va a salir con el método pop (a menos que no hayan más elementos) y los que ya estaban se reorganicen, lo que quiere decir que si ya habían elementos el que entró al principio seguirá estando listo para salir de primero con el método pop porque habrá quedado de último en la lista, recordemos que el método pop se encarga de sacar el último elemento de una lista.
+.
+Espero haberte aclarado un poco. ✌🏻

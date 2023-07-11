@@ -1,0 +1,23 @@
+Las queues, también conocidas como colas, son una estructura de datos lineal que sigue el principio de 
+FIFO (First In, First Out), 
+lo que significa que el primer elemento en entrar es el primero en ser atendido o procesado.
+
+En una cola, los elementos se agregan al final y se eliminan desde el frente. 
+Esto se asemeja a una fila en la vida real, donde la primera persona en llegar es la primera en ser atendida.
+
+Las operaciones principales en una cola son:
+
+Enqueue (encolar): Agrega un elemento al final de la cola.
+Dequeue (desencolar): Elimina y devuelve el elemento que está en el frente de la cola.
+Front (frente): Devuelve el elemento que está en el frente de la cola sin eliminarlo.
+Rear (trasero): Devuelve el elemento que está al final de la cola sin modificar la cola.
+Is Empty (está vacía): Verifica si la cola está vacía o no.
+Las queues se utilizan comúnmente en situaciones donde es necesario 
+mantener un orden de llegada y procesamiento, como:
+
+Procesamiento de tareas en un sistema operativo.
+Implementación de buffers en comunicaciones de red.
+Planificación de tareas en algoritmos de búsqueda y exploración.
+Control de flujo de datos en aplicaciones que manejan eventos y procesos en serie.
+A continuación, se muestra un ejemplo simple de implementación 
+de una cola en Python utilizando una lista:
