@@ -1,0 +1,22 @@
+Un stack, también conocido como pila, es una estructura de datos que sigue el principio de 
+LIFO (Last In, First Out), 
+lo que significa que el último elemento insertado es el primero en ser eliminado. 
+En otras palabras, el stack opera siguiendo un orden inverso al de una pila de objetos física, 
+donde el último elemento que se coloca en la pila es el primero que se retira.
+
+Un stack se puede visualizar como una pila de objetos colocados uno encima del otro. 
+Los elementos se pueden insertar o eliminar solo desde la parte superior de la pila, que se llama "top". 
+Este comportamiento se puede resumir con dos operaciones principales:
+
+Push (empujar): Agrega un elemento en la parte superior del stack.
+Pop (extraer): Elimina y devuelve el elemento que está en la parte superior del stack.
+Además de estas operaciones, los stacks también pueden proporcionar otras operaciones auxiliares, 
+como peek (observar), que devuelve el elemento en la parte superior del stack sin eliminarlo, y isEmpty (está vacío), 
+que verifica si el stack está vacío o no.
+
+Los stacks se utilizan comúnmente en programación para realizar tareas como:
+
+Seguimiento de llamadas de funciones en la pila de ejecución (conocida como "pila de llamadas" o "call stack").
+Evaluación de expresiones matemáticas en notación posfija (postfix).
+Realización de operaciones de deshacer/rehacer en editores de texto y aplicaciones gráficas.
+Implementación de algoritmos recursivos mediante la recursión de cola (tail recursion).
